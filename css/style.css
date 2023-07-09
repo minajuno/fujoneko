@@ -8,9 +8,13 @@
 
 @font-face {
     font-family: 'cooperbits';
-    src: url('library/cooperbits-webfont.woff') format('woff');
+    src: url('library/cooperbits-webfont.woff') format('woff'),
+         url('library/cooperbits-webfont.ttf') format('truetype'),
+         src: local(cooperbits), url("library/cooperbits-webfont.ttf");
     font-weight: normal;
     font-style: normal;
+
+}
 
 }
 .body {
@@ -73,7 +77,8 @@ background: #BAABD5;
 }
 
 .hero {
-padding: 9%;
+padding-top: 12%;
+padding-bottom: 5%;
 }
 
 .about {
