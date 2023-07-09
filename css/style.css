@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'r-flex';
+    src: url('library/r-flex-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cooperbits';
+    src: url('library/cooperbits-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.body {
+background: #F3F4F7;
+}
+
+
+
+.text {
+    font-family: 'cooperbits';
+    background-image: linear-gradient(45deg, #FB879E, #8CC5FC);
+    background-size: 20%;
+    font-size: 40px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+        background-repeat: repeat;
+        background-position: center;
+
+}
+
+.text2 {
+    font-family: 'cooperbits';
+    color: #FB879E;
+    font-size: 25px;
+    width: 291px;
+    line-height: 125%;
+    text-align: left;
+
+}
+
+.logo-img {
+margin-top: 30px;
+margin-left: 70px;
+}
+
+.contactme {
+margin-top: 25px;
+padding: 6px;
+margin-right: 70px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 26px;
+border-color: #FB879E;
+border-width: 0px;
+background: #FB879E;
+color: var(--white, #FFF);
+text-align: center;
+font-family: 'r-flex';
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+  transition: all 0.8s ease;
+}
+
+.contactme:hover {
+background: #BAABD5;
+  transition: all 0.8s ease;
+}
+
+.hero {
+padding: 9%;
+}
+
+.about {
+padding: 2%;
+
+}
+
+.contact {
+padding-top: 0.5%;
+margin-left: 10px;
+}
+
+.text-about {
+width: 40%;
+padding: 0.4%;
+font-family: 'r-flex';
+color: #655573;
+text-align: right;
+line-height: 144.5%;
+padding-top: 0.5%;
+font-size: 15px;
+}
+
+.email {
+width: 40%;
+padding-top: 0%;
+font-family: 'r-flex';
+color: #655573;
+text-align: right;
+line-height: 144.5%;
+font-size: 17px;
+}
+
+.margin-left-10px {
+margin-left: 10px;
+}
+
+.alignment-prop {
+  display: flex;
+  justify-content: center;
+}
+
+.text-project {
+width: 40%;
+font-family: 'r-flex';
+color: #3D3D3D;
+text-align: center;
+line-height: 144.5%;
+padding-top: 0.5%;
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+
+.container {
+  display: flex; // working with all latest browsers
+  display: -webkit-flex;  // for old version of safari
+  display: -ms-flex; // for old versions of IE
+  justify-content: space-between;
+
+}
+.container span {
+  flex: 0.8;
+  text-align: center;
+}
