@@ -44,12 +44,12 @@ background: #F3F4F7;
 }
 
 .logo-img {
-margin-top: 30px;
+margin-top: 25px;
 margin-left: 70px;
 }
 
 .contactme {
-margin-top: 25px;
+margin-top: 18px;
 padding: 6px;
 margin-right: 70px;
 padding-left: 20px;
@@ -111,6 +111,7 @@ font-size: 17px;
 margin-left: 10px;
 }
 
+
 .alignment-prop {
   display: flex;
   justify-content: center;
@@ -123,6 +124,7 @@ text-align: center;
 line-height: 144.5%;
 font-size: 15px;
 padding-top: 20px;
+text-shadow: 0px 1px 1px #E9CFFF;
 }
 
 .container {
@@ -142,6 +144,7 @@ img {
 
 .navbar {
     background-color: #F3F4F7;
+    HEIGHT: 85PX;
 }
 
 .title-color-gradient {
@@ -150,4 +153,18 @@ img {
 
 .item {
     margin-bottom: 50px
+}
+
+.footer {
+background: rgb(140,197,252);
+background: linear-gradient(0deg, rgba(140,197,252,1) 0%, rgba(140,197,252,0.5746673669467788) 23%);
+}
+
+.footer-text-1 {
+font-family: 'r-flex';
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+color: #fff;
+padding: 25px;
 }
